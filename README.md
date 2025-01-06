@@ -1,4 +1,4 @@
-# FSE Pilot Project
+# Block Theme Pilot Project
 
 Welcome to the scaffold for your pilot build, this readme will help you get setup in your development environment, though if you find you have questions that remain unanswered, please reach out to your Automattic contact.
 
@@ -12,7 +12,7 @@ This scaffold is set up as a `/wp-content` root, that means you should clone thi
 
 This scaffold has composer dependencies, to install these, open a terminal in the `/wp-content` root and run `composer i`. See more about the scripts this makes available in the section **Code Style & Quality**.
 
-Having run `composer i` you should also see the **Create Block Theme** plugin in your WP Plugins, you'll be using this plugin to sync FSE changes back to theme files.
+Having run `composer i` you should also see the **Create Block Theme** plugin in your WP Plugins, you'll be using this plugin to sync block theme changes back to theme files.
 
 ### Build Processes
 
@@ -40,9 +40,9 @@ The `git` repository only keeps track of **custom** content inside the `wp-conte
 
 As a rule of thumb, if there is another source of updates for a piece of code, it must not be tracked via the repository (e.g., off-the-shelf plugins or parent themes).
 
-### FSE Templates, Parts, Patterns, and `theme.json`
+### Templates, Parts, Patterns, and `theme.json`
 
-FSE template parts are included in this to show desired folder structure only. You will likely want to start from scratch with all FSE related files to avoid battling what's already here and been filled as a placeholder demonstration only.
+Template parts are included in this to show desired folder structure only. You will likely want to start from scratch with all related files to avoid battling what's already here and been filled as a placeholder demonstration only.
 
 ### Gutenberg blocks
 
