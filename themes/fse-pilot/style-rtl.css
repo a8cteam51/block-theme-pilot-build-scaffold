@@ -26,6 +26,41 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 */
+/* Sensible defaults */
+/* Font smoothing */
+body {
+  text-rendering: geometricprecision;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth scrolling */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+/* Reduce widows and orphans */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+caption,
+figcaption,
+li {
+  text-wrap: pretty;
+}
+
+/* Remove double-bold headings */
+.wp-block-heading strong,
+.wp-block-heading b {
+  font-weight: inherit;
+}
+
 /*
  * Control the hover stylings of outline block style.
  * Unnecessary once block styles are configurable via theme.json
